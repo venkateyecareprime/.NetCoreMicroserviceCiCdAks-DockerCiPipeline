@@ -2,7 +2,7 @@ name : Docker-CI
 trigger:
   branches:
     include:
-      - master
+      - main
 
 pool:
   vmImage: 'ubuntu-latest'
