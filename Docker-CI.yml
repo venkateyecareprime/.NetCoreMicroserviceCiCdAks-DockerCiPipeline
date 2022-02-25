@@ -9,7 +9,7 @@ pool:
 
 variables:
   ImageName1: 'wolfgangofner/microservicedemo:$(Build.BuildId)'
-  ImageName2: 'vc4017/microservicedemo:$(Build.BuildId)'
+  ImageName2: 'vc4017/microservicedemo:latest
 
 stages:
 - stage: Build
